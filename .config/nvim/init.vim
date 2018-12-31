@@ -50,8 +50,6 @@ Plug 'xolox/vim-misc' " required for vim-notes
 " C#
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'tpope/vim-dispatch', {'do': 'make'}
-" Installs and builds OmniSharp
-Plug 'OmniSharp/omnisharp-vim'
 
 Plug 'johngrib/vim-game-code-break'
 Plug 'AndrewRadev/splitjoin.vim'
