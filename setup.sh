@@ -14,9 +14,9 @@ chmod 666 /var/run/docker.sock
 service docker start
 
 echo "Installing neovim..."
-sudo yum -y install epel-release
-curl -o /etc/yum.repos.d/dperson-neovim-epel-7.repo https://copr.fedorainfracloud.org/coprs/dperson/neovim/repo/epel-7/dperson-neovim-epel-7.repo
-sudo yum -y install neovim
+curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
+chmod u+x nvim.appimage
+mv nvim.appimage $HOME/
 
 echo "Installing VimPlug..."
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
