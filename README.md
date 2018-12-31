@@ -19,6 +19,6 @@
 * $ nvim main.go
 * :PlugInstall
   - inside main.go:
-  - might take awhile
+  - will take awhile
 
 should be good to go now
