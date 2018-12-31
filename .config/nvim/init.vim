@@ -46,8 +46,6 @@ Plug 'skywind3000/asyncrun.vim'
 Plug 'xolox/vim-notes'
 Plug 'xolox/vim-misc' " required for vim-notes
 " Autocompletion
-Plug 'Shougo/deoplete.nvim',
-Plug 'zchee/deoplete-go', { 'do': 'make' }
 
 " C#
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
@@ -167,17 +165,6 @@ set completeopt+=noselect
 " don't open the preview window
 set completeopt-=preview
 
-" Path to python interpreter for neovim
-let g:python3_host_prog = '/usr/local/bin/python3'
-" Skip the check of neovim module
-let g:python3_host_skip_check = 1
-
-" Enable deoplete
- let g:deoplete#enable_at_startup = 1
- let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
- let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
-" Enable completing of go pointers
- let g:deoplete#sources#go#pointer = 1
 
 "----------------------------------------------
 "" Navigation
@@ -317,12 +304,6 @@ let g:ale_sign_error = '⤫'
 let g:ale_sign_warning = '⚠'
 let g:ale_lint_on_save = 1
 let g:ale_fix_on_save = 1
-
-" better key bindings for UltiSnipsExpandTrigger
-let g:UltiSnipsExpandTrigger = "<tab>"
-let g:UltiSnipsJumpForwardTrigger = "<tab>"
-let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
-
 
 "let g:ale_lint_on_text_changed = 'normal'
 "let g:ale_sign_column_always = 1
