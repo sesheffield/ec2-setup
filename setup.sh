@@ -32,7 +32,3 @@ cd $HOME
 mkdir go && cd go && mkdir src && cd src && mkdir github.com && cd github.com
 mv ../../../../home/ec2-user/sesheffield .
 
-echo "Sourcing configs..."
-cd
-source ~/.bashrc
-source ~/.bash_profile
