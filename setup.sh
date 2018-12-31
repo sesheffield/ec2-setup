@@ -26,12 +26,13 @@ echo "Moving config files..."
 mv .bashrc $HOME
 mv .bash_profile $HOME
 mv .config $HOME
-source ~/.bashrc
-source ~/.bash_profile
 
 echo "Moving folder structure..."
 cd $HOME
 mkdir go && cd go && mkdir src && cd src && mkdir github.com && cd github.com
 mv ../../../../home/ec2-user/sesheffield .
 
-
+echo "Sourcing configs..."
+cd
+source ~/.bashrc
+source ~/.bash_profile
