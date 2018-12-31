@@ -16,7 +16,8 @@
 * $ cd
 * $ source ~/.bash_profile
 * $ source ~/.bashrc
-* $ nvim main.go
+* $ vi main.go
+  - or $ nvim main.go
 * :PlugInstall
   - inside main.go:
   - will take awhile

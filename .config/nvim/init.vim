@@ -25,7 +25,6 @@ Plug 'shime/vim-livedown' " Markdown preview
 Plug 'jiangmiao/auto-pairs' " Helps with { } stuff
 Plug 'nathanaelkane/vim-indent-guides' " Indent lines
 Plug 'easymotion/vim-easymotion' " Makes motion commands better
-Plug 'SirVer/ultisnips'
 Plug 'Shougo/neosnippet.vim' " Snippets
 Plug 'Shougo/neosnippet-snippets'
 Plug 'mdempsky/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh' }
