@@ -27,7 +27,7 @@ alias gm="git commit -m"
 alias gp="git push"
 alias shef="cd ~/go/src/github.com/sesheffield/"
 alias vi='nvim'
-alias nvim='./nvim.appimage'
+alias nvim='$HOME/nvim.appimage'
 alias vim='vim -X'
 
 SVN_EDITOR='vim'
