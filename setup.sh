@@ -33,8 +33,8 @@ source ~/.bashrc
 source ~/.bash_profile
 
 echo "Moving folder structure..."
-cd $HOME
+cd ../..
 mkdir go && cd go && mkdir src && cd src && mkdir github.com && cd github.com
-mv $HOME/sesheffield .
+mv ../../../ /sesheffield .
 
 
